@@ -135,6 +135,10 @@ header {
     opacity: 0;
 }
 
+.banner button a {
+    color: white;
+}
+
 .banner button:hover{
     opacity: 0.8;
     letter-spacing: 0.4rem;
@@ -296,7 +300,11 @@ header {
 .conhecimentos-img-wrapper img {
     width: 100%;
     object-fit: cover;
+}
 
+#conhecimentos {
+    transition: ease-in-out 3s;
+}
 
 
 
